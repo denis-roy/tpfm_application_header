@@ -7,6 +7,9 @@ A TalkPython.fm Python Jumpstart inspired Application Header helper
 
 ## How?
 
+Requirements: 
+If you are on Windows, you will need to `pip install colorama`
+
 ```python
 >>> import header
 >>> print(header.header())
