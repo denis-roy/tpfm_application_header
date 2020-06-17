@@ -7,7 +7,7 @@ import header
 
 print(header.header())
 
-Defaults values:
+Default values:
     - text = "APPLICATION HEADER",
     - text_color = "none",
     - text_background_color = "none",
@@ -32,7 +32,7 @@ height
     - Minimum value: 1
     - Maximum value: 9
 decorative_pattern
-    - Can be a single character or a sequence ofcharacters
+    - Can be a single character, or a sequence of characters
     - If sequence is lesser than the width, it will be repeated to span the width
     - If the sequence is longer than the width it will be truncated at the width
 decorative_pattern_color
@@ -69,7 +69,7 @@ def header(
     """
     CLI application header formatter.
 
-    Defaults values:
+    Default values:
         - text = "APPLICATION HEADER",
         - text_color = "none",
         - text_background_color = "none",
@@ -94,7 +94,7 @@ def header(
         - Minimum value: 1
         - Maximum value: 9
     decorative_pattern
-        - Can be a single character or a sequence ofcharacters
+        - Can be a single character, or a sequence of characters
         - If sequence is lesser than the width, it will be repeated to span the width
         - If the sequence is longer than the width it will be truncated at the width
     decorative_pattern_color

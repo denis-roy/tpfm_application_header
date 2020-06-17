@@ -1,1 +1,24 @@
-tpfm_application_header
+## What?
+
+A TalkPython.fm Python Jumpstart inspired Application Header helper
+
+## Why?
+- It's fun and it's [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) :)
+
+## How?
+
+```python
+>>> import header
+>>> print(header.header())
+
+--------------------------------
+       APPLICATION HEADER       
+--------------------------------
+```
+
+or for a proper demo:
+```python
+$ python header.py
+```
+
+![Application Header Demo](tpfm_header_demo.png)
